@@ -8,10 +8,10 @@ body {
 
 h1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 65px;
-  width: 75%;
+  font-size: 40px;
+  width: 55%;
   text-align: center;
-  margin-left: 13%;
+  margin-left: 22%;
   margin-top: 0;
   padding-top: 5%;
   color: white;
@@ -22,9 +22,9 @@ h1 {
 h2 {
   font-family: 'Raleway', sans-serif;
   width: 58%;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
-  margin-left: 18%;
+  margin-left: 20%;
   color: white;
   font-weight: 200;
   position: relative;
@@ -66,7 +66,7 @@ h2 {
   display: block;
   margin: 0 auto;
   padding-top: 100px;
-  width: 50%;
+  width: 80%;
 }
 
 .button {
@@ -139,7 +139,7 @@ h2 {
 
 .stay-productive-img {
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 10%;
   margin-left: 5%;
   width: 40%;
   height: auto;
@@ -147,7 +147,7 @@ h2 {
 
  .stay-productive-box {
   color: white;
-  margin-top: 10%;
+  margin-top: 15%;
   margin-right: 10%;
   float: right;
   font-size: 1vw;
@@ -206,7 +206,7 @@ h2 {
   width: 50px;
   height: 50px;
   margin-left: 13vw;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .grid1 {
