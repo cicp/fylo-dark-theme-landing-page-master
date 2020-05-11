@@ -1,8 +1,9 @@
 body {
   background-color: darkblue;
   background-color: hsl(218, 28%, 13%);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open+Sans', sans-serif;
   margin: 0;
+  color: white;
 }
 
 h1 {
@@ -62,10 +63,10 @@ h2 {
 .intro-img {
   background-color: darkblue;
   background-color: hsl(217, 28%, 15%);
-  margin-top: 100px;
-  margin-left: 15%;
-  width: 70%;
-  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 50%;
 }
 
 .button {
@@ -88,66 +89,51 @@ h2 {
   background-color: hsl(217, 28%, 15%);
   margin-top: -13%;
   width: 100%;
-  height: auto;
   position: relative;
   z-index: 1;
 }
 
 .cover {
   height: 20px;
-  width: auto;
   margin-top: -10px;
   background-color: darkblue;
   background-color: hsl(218, 28%, 13%);
 }
 
-.computer-box {
-  display: inline-block;
-  color: white;
-  width: 40%;
+.grid {
   margin-top: 0;
-  margin-left: 10%;
+  display: flex;
+  justify-content: center;
 }
 
-.security-box {
-  display: inline-block;
-  color: white;
-  width: 40%;
-  margin-top: 0;
+.grid-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+  margin: 0 15px;
 }
 
-.collaboration-box {
-  display: inline-block;
-  color: white;
-  width: 40%;
-  margin-top: 100px;
-  margin-left: 10%;
-}
-
-.any-file-box {
-  display: inline-block;
-  color: white;
-  width: 40%;
-  margin-top: 100px;
+.grid-box {
+  margin-top: 20%;
 }
 
 .grid-img {
-  position: relative;
-  margin-left: 40%;
+  display: block;
+  margin: 0 auto;
 }
 
 .grid-h3 {
-  position: relative;
-  margin-left: 9vw;
+  display: block;
+  margin: 5% auto;
   width: 50%;
   text-align: center;
 }
 
 .grid-p {
-  font-size: 12px;
-  position: relative;
-  margin-left: 8vw;
-  width: 50%;
+  display: block;
+  margin: 0 auto;
+  width: 70%;
   text-align: center;
 }
 
@@ -159,7 +145,7 @@ h2 {
   height: auto;
 }
 
-.stay-productive-box {
+ .stay-productive-box {
   color: white;
   margin-top: 10%;
   margin-right: 10%;
@@ -216,63 +202,55 @@ h2 {
 }
 
 .quotes {
-  margin-left: 10%;
-  margin-top: 5%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-left: 13vw;
+  margin-top: 50px;
 }
 
-.testimonials-boxes {
-  display: inline-block;
-  width: 25%;
-  height: 250px;
-  margin-top: 7%;
-  margin-left: -3%;
-  margin-bottom: 20%;
+.grid1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: -1vw;
+}
+
+.grid1-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 75%;
+}
+
+.testimonials-box {
   background-color: darkblue;
   background-color: hsl(219, 30%, 18%);
-  z-index: 1;
-  position: absolute;
+  margin: 0 15px;
+  height: 110%;
 }
 
 .testimonials-text {
-  color: white;
-  font-size: 16px;
-  margin: 15% 7%;
+  margin: 20px 20px;
 }
 
 .testimonials-img {
-  position: absolute;
-  margin-top: -30px;
-  margin-left: 10%;
-  border-radius: 100px;
-  width: 10%;
-  height: auto;
+  border-radius: 50%;
+  width: 50px;
+  margin-top: 20px;
+  float: left;
 }
 
 .testimonials-name {
-  position: absolute;
-  margin-top: -30px;
-  margin-left: 22%;
+  margin: 40px 0 0;
+  padding-left: 70px;
   color: white;
 }
 
 .testimonials-title {
-  font-size: 10px;
-  position: absolute;
-  margin-top: -10px;
-  margin-left: 22%;
+  padding-left: 70px;
+  font-size: 12px;
   color: white;
-}
-
-.testimonials-box2 {
-  display: inline-block;
-  margin-left: 25%;
-  margin-top: 7%;
-}
-
-.testimonials-box3 {
-  display: inline-block;
-  margin-left: 53%;
-  margin-top: 7%;
 }
 
 .calltoaction {
@@ -284,7 +262,7 @@ h2 {
 .signup {
   width: 60%;
   height: 300px;
-  margin-top: 30%;
+  margin-top: 20%;
   margin-left: 20vw;
   position: relative;
   font-size: 1vw;
@@ -322,6 +300,7 @@ h2 {
   height: 4.2vw;
   margin-left: 38vw;
   margin-top: 2vw;
+  font-size: 1.5vw;
   color: white;
   font-weight: 600;
   border: none;
